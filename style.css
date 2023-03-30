@@ -7,6 +7,14 @@
   background-size: cover;
 }
 
+.jumbotron2 {
+  width: 100%;
+  height: 700px;
+  padding-top: 200px;
+  background-image: url("img/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .navbar-brand {
   font-family: "Pacifico", cursive;
 }
@@ -15,6 +23,15 @@
   display: inline-block;
   padding: 5px;
   list-style: none;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+footer p {
+  padding-top: 30px;
+  color: aliceblue;
 }
 
 .tracking-in-expand {
@@ -144,7 +161,8 @@
 }
 
 .shake-top {
-  -webkit-animation: shake-top 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+  -webkit-animation: shake-top 5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
   animation: shake-top 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
 }
 /* ----------------------------------------------
@@ -227,7 +245,8 @@
 }
 
 .scale-in-ver-center {
-  -webkit-animation: scale-in-ver-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: scale-in-ver-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   animation: scale-in-ver-center 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 /* ----------------------------------------------
@@ -389,7 +408,8 @@
 }
 
 .scale-in-hor-right {
-  -webkit-animation: scale-in-hor-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: scale-in-hor-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   animation: scale-in-hor-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 /* ----------------------------------------------
